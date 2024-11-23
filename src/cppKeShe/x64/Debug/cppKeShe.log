@@ -1,0 +1,43 @@
+﻿  cppKeShe.cpp
+  IFileHandler.cpp
+E:\Study\project\Cpp\CppKeShe\src\cppKeShe\IFileHandler.h(21,14): error C2061: 语法错误: 标识符“T”
+  (编译源文件“cppKeShe.cpp”)
+  
+E:\Study\project\Cpp\CppKeShe\src\cppKeShe\IFileHandler.h(21,8): error C2253: “data::IFileHandlerLzw::Write”: 纯说明符或抽象重写说明符只允许在虚函数上使用
+  (编译源文件“cppKeShe.cpp”)
+  
+E:\Study\project\Cpp\CppKeShe\src\cppKeShe\IFileHandler.h(16,23): error C2187: 语法错误: 此处出现意外的“常数”
+  (编译源文件“cppKeShe.cpp”)
+  E:\Study\project\Cpp\CppKeShe\src\cppKeShe\IFileHandler.h(16,8):
+  此诊断出现在编译器生成的函数“void data::IFileHandlerLzw::Read(T &)”中
+  
+E:\Study\project\Cpp\CppKeShe\src\cppKeShe\cppKeShe.cpp(8,24): error C2259: “data::IFileHandlerLzw”: 无法实例化抽象类
+  E:\Study\project\Cpp\CppKeShe\src\cppKeShe\IFileHandler.h(4,8):
+  参见“data::IFileHandlerLzw”的声明
+  E:\Study\project\Cpp\CppKeShe\src\cppKeShe\cppKeShe.cpp(8,24):
+  由于下列成员:
+  E:\Study\project\Cpp\CppKeShe\src\cppKeShe\cppKeShe.cpp(8,24):
+  “bool data::IFileHandlerLzw::Open(const std::string &,std::ios_base::openmode)”: 是抽象的
+  E:\Study\project\Cpp\CppKeShe\src\cppKeShe\IFileHandler.h(9,16):
+  参见“data::IFileHandlerLzw::Open”的声明
+  E:\Study\project\Cpp\CppKeShe\src\cppKeShe\cppKeShe.cpp(8,24):
+  “bool data::IFileHandlerLzw::Close(void)”: 是抽象的
+  E:\Study\project\Cpp\CppKeShe\src\cppKeShe\IFileHandler.h(11,16):
+  参见“data::IFileHandlerLzw::Close”的声明
+  E:\Study\project\Cpp\CppKeShe\src\cppKeShe\cppKeShe.cpp(8,24):
+  “void data::IFileHandlerLzw::MovePtr(int)”: 是抽象的
+  E:\Study\project\Cpp\CppKeShe\src\cppKeShe\IFileHandler.h(18,16):
+  参见“data::IFileHandlerLzw::MovePtr”的声明
+  
+E:\Study\project\Cpp\CppKeShe\src\cppKeShe\IFileHandler.h(21,14): error C2061: 语法错误: 标识符“T”
+  (编译源文件“IFileHandler.cpp”)
+  
+E:\Study\project\Cpp\CppKeShe\src\cppKeShe\IFileHandler.h(21,8): error C2253: “data::IFileHandlerLzw::Write”: 纯说明符或抽象重写说明符只允许在虚函数上使用
+  (编译源文件“IFileHandler.cpp”)
+  
+E:\Study\project\Cpp\CppKeShe\src\cppKeShe\IFileHandler.h(16,23): error C2187: 语法错误: 此处出现意外的“常数”
+  (编译源文件“IFileHandler.cpp”)
+  E:\Study\project\Cpp\CppKeShe\src\cppKeShe\IFileHandler.h(16,8):
+  此诊断出现在编译器生成的函数“void data::IFileHandlerLzw::Read(T &)”中
+  
+  正在生成代码...
